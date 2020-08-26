@@ -1,7 +1,8 @@
 # sin_faltas
 Simplifica la ortografía en el texto de una página web.
-Ej. https://lamentable-sashes.000webhostapp.com/index.php
-Ej. https://lamentable-sashes.000webhostapp.com/index.php?https://www.jotdown.es/2020/05/spielberg-y-el-coronavirus-hablemos-de-la-imaginacion/
+Ej. 
+* https://lamentable-sashes.000webhostapp.com/index.php
+* https://lamentable-sashes.000webhostapp.com/index.php?https://www.jotdown.es/2020/05/spielberg-y-el-coronavirus-hablemos-de-la-imaginacion/
 
 Actual:
 * Cambia "ll" por "y"
