@@ -32,7 +32,7 @@ $startURL = "";
 //When no $startURL is configured above, miniProxy will show its own landing page with a URL form field
 //and the configured example URL. The example URL appears in the instructional text on the miniProxy landing page,
 //and is proxied when pressing the 'Proxy It!' button on the landing page if its URL form is left blank.
-$landingExampleURL = "https://example.net";
+$landingExampleURL = "https://dle.rae.es/zanahoria";
 
 /****************************** END CONFIGURATION ******************************/
 
@@ -543,58 +543,12 @@ function loadJS_sin_faltas(){
   loadJS("sin_faltas.js");
 }
 
-function preSin_faltas(){
-
-    var script = document.createElement("SCRIPT");
-    script.src = \'https://code.jquery.com/jquery-3.4.1.min.js\';
-    script.type = \'text/javascript\';
-    script.onload = function() {
-    document.title = sin_faltas(document.title);
-    var $ = window.jQuery;
-    $("a").each(function()
-    {
-        if($(this).children().length == 0) {
-          $(this).text(sin_faltas($(this).text()));
-        }
-    });
-    $("h1").each(function()
-    {
-        $(this).html(sin_faltas($(this).html()));
-    });
-    $("h2").each(function()
-    {
-        $(this).html(sin_faltas($(this).html()));
-    });
-    $("h3").each(function()
-    {
-        $(this).html(sin_faltas($(this).html()));
-    });
-    $("p").each(function()
-    {
-        $(this).html(sin_faltas($(this).html()));
-    });
-    $("li").each(function()
-    {
-        $(this).html(sin_faltas($(this).html()));
-    });
-    $("label").each(function()
-    {
-        $(this).html(sin_faltas($(this).html()));
-    });
-    // $("div").each(function()
-    // {
-    //     $(this).html(sin_faltas($(this).html()));
-    // });
-    };
-    document.getElementsByTagName("head")[0].appendChild(script);
-}
-
 if(window.addEventListener) {
     window.addEventListener(\'load\',loadJS_sin_faltas,false); //W3C
-    window.addEventListener(\'load\',preSin_faltas,false);
+    // window.addEventListener(\'load\',preSin_faltas,false);
 } else {
     window.attachEvent(\'onload\',loadJS_sin_faltas); //IE
-    window.attachEvent(\'onload\',preSin_faltas);
+    // window.attachEvent(\'onload\',preSin_faltas);
 }
 
       })();'
