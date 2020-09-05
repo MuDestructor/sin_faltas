@@ -3,6 +3,7 @@ Simplifica la ortografía en el texto de una página web.
 Ej. 
 * https://lamentable-sashes.000webhostapp.com/index.php
 * https://lamentable-sashes.000webhostapp.com/index.php?https://www.jotdown.es/2020/05/spielberg-y-el-coronavirus-hablemos-de-la-imaginacion/
+* https://lamentable-sashes.000webhostapp.com/index.php?https://www.moncloa.com/los-hombres-de-paco-estrenos-atresmedia-temporada/
 
 Actual:
 * Cambia "ll" por "y"
