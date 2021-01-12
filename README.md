@@ -14,7 +14,7 @@ Actual:
 *Cambia "c" con sonido "z" por "z"
 * Cambia "q" con sonido "k" por "k"
 * Cambia "c" con sonido "k" por "k"
-* Cambia "y" con conido "i" por "i"
+* Cambia "y" con sonido "i" por "i"
 
 Futuro:
 * Cambiar las "z" por "s" (para latinoamérica)
